@@ -12,11 +12,11 @@ Note: this code is only tested with Python 3.9
 
 # Quickstart
 
-Note: before you get started, you need to have Node.js and Python installed on your computer.
+Before you get started, you need to have Node.js and Python installed on your computer.
 
 ## Start the Svelte frontend
 
-- Clone or download the repository, or create your own Git repository by using this own as a template.
+- Clone or download the repository, or create your own Git repository by using this one as a template.
 - `cd` into the `svelte_frontend` directory: `cd svelte_frontend/`
 - Install the required NPM packages: `npm install`
 - Run the frontend in development mode: `npm run dev`
