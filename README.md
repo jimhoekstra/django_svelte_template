@@ -2,6 +2,8 @@
 
 This repository is a simple configuration of a Django project combined with a Svelte project that allows for easy integration between the Svelte frontend and Django backend, while maintaining the normal workflow for both frameworks as much as possible.
 
+This template is still in the first stages of development, if you have suggestions for improvements please let me know or submit a pull request!
+
 This repository is based on the basic Django project structure that is created by running the `django-admin startproject django_server` command (if you are unfamiliar with Django please have a look at the Django website first: https://www.djangoproject.com/ and follow their excellent tutorial). Next to this, it is based on the Svelte project template as found here: https://github.com/sveltejs/template. If you are unfamiliar with Svelte, please also first have a look at their website: https://svelte.dev/ and follow their equally excellent tutorial.
 
 Please note that I have adapted both the basic Django project structure and the Svelte template in order to provide a template that connects them together. These changes are entirely my own and are not supported by the developers of Django, Svelte, or the Svelte template I linked to in the previous paragraph or by anybody else.
