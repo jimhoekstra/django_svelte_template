@@ -6,7 +6,7 @@ This template is still in the first stages of development, if you have suggestio
 
 This repository is based on the basic Django project structure that is created by running the `django-admin startproject django_server` command (if you are unfamiliar with Django please have a look at the Django website first: https://www.djangoproject.com/ and follow their excellent tutorial). Next to this, it is based on the Svelte project template as found here: https://github.com/sveltejs/template. If you are unfamiliar with Svelte, please also first have a look at their website: https://svelte.dev/ and follow their equally excellent tutorial.
 
-Please note that I have adapted both the basic Django project structure and the Svelte template in order to provide a template that connects them together. These changes are entirely my own and are not supported by the developers of Django, Svelte, or the Svelte template I linked to in the previous paragraph or by anybody else.
+Please note that I have adapted both the basic Django project structure and the Svelte template in order to provide a template that connects them together. These changes are my own and not supported by the developers of Django, Svelte, or the Svelte template I linked to in the previous paragraph.
 
 Note: this code is only tested with Python 3.9
 
@@ -24,8 +24,8 @@ Before you get started, you need to have Node.js and Python installed on your co
 ## Start the Django backend
 
 - Open a new terminal in the main directory of the repository
-- It is recommended to create a new virtual environment before installing the
-Python dependencies, e.g. using Anaconda.
+- It is recommended to create a new virtual Python environment before installing the
+dependencies.
 - Install the Python dependencies (Django is the only required dependency): `pip install Django`
 - Start the Django development server: `python manage.py runserver`
 
